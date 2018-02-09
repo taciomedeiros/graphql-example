@@ -1,0 +1,27 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taciomedeiros/graphql-example.git"
+  },
+  "author": "Tacio Medeiros",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taciomedeiros/graphql-example/issues"
+  },
+  "homepage": "https://github.com/taciomedeiros/graphql-example#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "express-graphql": "^0.6.11",
+    "graphql": "^0.13.0",
+    "node-fetch": "^2.0.0",
+    "xml2js": "^0.4.19"
+  }
+}
